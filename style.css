@@ -1,64 +1,76 @@
-body{
-font-family: 'Segoe UI', sans-serif;
-background:#F8FAFC;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #F8FAFC;
 }
 
 /* Navbar */
 
-.navbar{
-background:#220974;
-border-bottom:3px solid #06B6D4;
+.navbar {
+  background: #220974;
+  border-bottom: 3px solid #06B6D4;
 }
 
-.nav-link{
-color:white !important;
-margin-left:15px;
+.nav-link {
+  color: white !important;
+  margin-left: 15px;
 }
 
-.nav-link:hover{
-color:#F59E0B !important;
+.nav-link:hover {
+  color: #F59E0B !important;
 }
+
 /* Hero Section */
 
-.hero{
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-background: linear-gradient(135deg,#4F46E5,#06B6D4);
-color:white;
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #4F46E5, #06B6D4);
+  color: white;
 }
 
-.hero h1{
-font-size:55px;
-font-weight:bold;
-animation: floatText 3s ease-in-out infinite;
+.hero h1 {
+  font-size: 55px;
+  font-weight: bold;
+  animation: floatText 3s ease-in-out infinite;
 }
 
-.hero p{
-font-size:20px;
+.hero p {
+  font-size: 20px;
 }
 
 /* Floating animation */
 
-@keyframes floatText{
-0%{transform:scale(1.0);}
-50%{transform:scale(1.1); text-shadow:#F59E0B  2px 2px 2px ;}
-100%{transform:scale(1.0);}
+@keyframes floatText {
+  0% {
+    transform: scale(1.0);
+  }
+
+  50% {
+    transform: scale(1.1);
+    text-shadow: #F59E0B 2px 2px 2px;
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
 }
 
-img{
-    height:600px;
-    padding: 20px;
-    background-color: #F59E0B;
-    border-top-left-radius:60px;
-    border-bottom-right-radius:60px;
-    box-shadow:  2px  2px 10px   #220974;
+
+.image {
+  background-color: #F59E0B;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 2px 2px 10px #220974;
+  width: 100%;
+  padding: 12px;
+  max-width: 260px;
+  height: auto;
+  box-shadow: 2px 2px 10px #220974;
 }
-.image{
-  box-shadow:  2px  2px 10px   #220974;
-}
+
 /* Section title */
 .contact-box {
   opacity: 0;
@@ -74,102 +86,106 @@ img{
   pointer-events: auto;
 }
 
-.section-title{
-font-weight:bold;
-color:#0F172A;
-margin-bottom:30px;
+.section-title {
+  font-weight: bold;
+  color: #0F172A;
+  margin-bottom: 30px;
 }
 
 /* Skills */
 
-.skills-section{
-background:#4F46E5;
+.skills-section {
+  background: #4F46E5;
 }
 
-.skill-box{
-background:white;
-padding:30px;
-border-radius:12px;
-font-weight:bold;
-transition:0.4s;
-color:#0F172A;
+.skill-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: 0.4s;
+  color: #0F172A;
 }
 
-.skill-box:hover{
-transform:translateY(-8px);
-background:#F59E0B;
-color:white;
+.skill-box:hover {
+  transform: translateY(-8px);
+  background: #F59E0B;
+  color: white;
 }
 
 /* Projects */
 
-.project-card{
-border:none;
-border-radius:12px;
-transition:0.4s;
+.project-card {
+  border: none;
+  border-radius: 12px;
+  transition: 0.4s;
 }
 
-.project-card:hover{
-transform:translateY(-10px);
-box-shadow:0 10px 30px rgba(0,0,0,0.2);
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* Contact */
 
-.contact-section{
-background:#0F172A;
+.contact-section {
+  background: #0F172A;
 }
 
 /* Buttons */
 
-.btn-warning{
-background:#F59E0B;
-border:none;
+.btn-warning {
+  background: #F59E0B;
+  border: none;
 }
 
-.btn-warning:hover{
-background:#d97706;
+.btn-warning:hover {
+  background: #d97706;
 }
 
 
-.fa-brands{
-    height: 18px;
-    width: 18px;
+.fa-brands {
+  height: 18px;
+  width: 18px;
 
 }
 
-.skill-box{
-    font-size: 20px;   
+.skill-box {
+  font-size: 20px;
 }
 
 /* Footer */
 
-footer{
-background:#e2e8f0;
+footer {
+  background: #e2e8f0;
 }
-@media (min-width:290px) and (max-width:355px){
-  .image{
+
+@media (min-width:290px) and (max-width:355px) {
+
+  /* .image{
     height: 250px;
-  }
-  .name-hero{
+  } */
+  .name-hero {
     font-size: 40px !important;
   }
-  img{
+
+  /* img{
    
     padding: 12px;
  
-}
+} */
 }
 
-@media (min-width:356px) and  (max-width:576px){
-  .image{
+@media (min-width:356px) and (max-width:576px) {
+  /* .image{
     height: 300px;
-  }
+  } */
 }
+
 @media (min-width:577px) and (max-width:992px) {
-  .image{
+  /* .image{
     height: 400px;
 
-  }
+  } */
 
 }
