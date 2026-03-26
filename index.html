@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Sivanesan Portfolio">
+    <meta name="description" content="Sivanesan Portfolio">
     <title>Sivanesan | Portfolio</title>
- 
+    <link rel="icon" href="SK.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 <body>
- 
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg  fixed-top">
         <div class="container">
@@ -38,19 +37,43 @@
     </nav>
 
     <!-- Hero -->
-    <section class="hero text-center text-white">
+    <section class="hero text-center text-white p-5">
 
-        <div class="container">
-            <img src="SK.png" alt="logo">
-            <h1 data-aos="zoom-in">Hello I'm Sivanesan K</h1>
+        <div class="container hero-sec">
+            <div class="row align-items-center justify-content-evenly gap-4">
 
-            <p data-aos="fade-up">
-                ASP.NET Developer | Web Designer
-            </p>
 
-            <a href="#contact" class="btn btn-warning btn-lg mt-3" data-aos="fade-up">
-                Hire Me
-            </a>
+                <div class="col 4">
+                    <img class="image" src="Sivanesan.png" alt="logo">
+                </div>
+                <div class="col 4">
+                    <h1 data-aos="zoom-in">Hello I'm Sivanesan K</h1>
+
+                    <p data-aos="fade-up">
+                        ASP.NET Developer | Web Designer
+                    </p>
+
+                    <a href="#" id="hireBtn" class="btn btn-warning btn-lg mt-3">
+                        Hire Me
+                    </a>
+
+                    <div id="contactOptions" class="contact-box">
+
+                        <a href="https://wa.me/918870900440" target="_blank" class="btn btn-success">
+                            <i class="fa-brands fa-whatsapp" style="color: rgb(255, 255, 255);"></i> WhatsApp
+                        </a>
+
+                        <a href="tel:+918870900440" class="btn btn-primary">
+                            <i class="fa-solid fa-phone" style="color: rgb(255, 255, 255);"></i> Call
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
 
         </div>
 
@@ -80,22 +103,51 @@
                 Skills
             </h2>
 
-            <div class="row text-center mt-4 g-4">
+            <div class="row text-center mt-4 g-4 justify-content-center">
 
-                <div class="col-md-3" data-aos="flip-left">
-                    <div class="skill-box">HTML</div>
+                <div class="col-md-5 col-xl-3" data-aos="flip-left">
+                    <div class="skill-box"><i class="fa-brands fa-html5" style="color: rgb(230, 92, 31);"></i> HTML
+                    </div>
                 </div>
 
-                <div class="col-md-3" data-aos="flip-left">
-                    <div class="skill-box">CSS</div>
+                <div class="col-md-5 col-xl-3" data-aos="flip-left">
+                    <div class="skill-box"><i class="fa-brands fa-css3-alt" style="color: rgb(38, 77, 228);"></i> CSS
+                    </div>
                 </div>
 
-                <div class="col-md-3" data-aos="flip-left">
-                    <div class="skill-box">Bootstrap</div>
+                <div class="col-md-5 col-xl-3" data-aos="flip-left">
+                    <div class="skill-box"><i class="fa-brands fa-bootstrap" style="color: rgb(131, 10, 250);"></i>
+                        Bootstrap</div>
+                </div>
+                <div class="col-md-5 col-xl-3" data-aos="flip-left">
+                    <div class="skill-box"><i class="fa-brands fa-js" style="color: rgb(247, 224, 24);"></i> Javascript
+                    </div>
+                </div>
+                <div class="col-md-5 col-xl-3" data-aos="flip-left">
+                    <div class="skill-box"><i class="fa-brands fa-react" style="color: rgb(0, 216, 255);"></i> React
+                    </div>
                 </div>
 
-                <div class="col-md-3" data-aos="flip-left">
-                    <div class="skill-box">ASP.NET</div>
+                <div class="col-md-5 col-xl-3" data-aos="flip-left">
+                    <div class="skill-box"><svg class="fa-brands" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 128 128">
+                            <path fill="#68217a"
+                                d="M95 2.3l30.5 12.3v98.7l-30.7 12.4-49-48.7-31 24.1-12.3-6.2V33.1l12.3-5.9 31 24.3zM14.8 45.7v37.5l18.5-19zm48.1 18.5l31.9 25.1V39z" />
+                        </svg> ASP.NET Core</div>
+                </div>
+                <div class="col-md-5 col-xl-3" data-aos="flip-left">
+                    <div class="skill-box"><svg class="fa-brands" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 128 128">
+                            <path fill="#85ea2d"
+                                d="M63.999 124.945c-33.607 0-60.95-27.34-60.95-60.949C3.05 30.388 30.392 3.048 64 3.048s60.95 27.342 60.95 60.95c0 33.607-27.343 60.946-60.95 60.946z" />
+                            <path fill="#173647"
+                                d="M40.3 43.311c-.198 2.19.072 4.454-.073 6.668-.173 2.217-.444 4.407-.888 6.596-.615 3.126-2.56 5.489-5.24 7.458 5.218 3.396 5.807 8.662 6.152 14.003.172 2.88.098 5.785.394 8.638.221 2.215 1.082 2.782 3.372 2.854.935.025 1.894 0 2.978 0v6.842c-6.768 1.156-12.354-.762-13.734-6.496a39.329 39.329 0 0 1-.836-6.4c-.148-2.287.097-4.577-.074-6.864-.492-6.277-1.305-8.393-7.308-8.689v-7.8c.441-.1.86-.174 1.302-.223 3.298-.172 4.701-1.182 5.414-4.43a37.512 37.512 0 0 0 .616-5.536c.247-3.569.148-7.21.763-10.754.86-5.094 4.01-7.556 9.254-7.852 1.476-.074 2.978 0 4.676 0v6.99c-.714.05-1.33.147-1.969.147-4.258-.148-4.48 1.304-4.8 4.848zm8.195 16.193h-.099c-2.462-.123-4.578 1.796-4.702 4.258-.122 2.485 1.797 4.603 4.259 4.724h.295c2.436.148 4.527-1.724 4.676-4.16v-.245c.05-2.486-1.944-4.527-4.43-4.577zm15.43 0c-2.386-.074-4.38 1.796-4.454 4.159 0 .149 0 .271.024.418 0 2.684 1.821 4.406 4.578 4.406 2.707 0 4.406-1.772 4.406-4.553-.025-2.682-1.823-4.455-4.554-4.43Zm15.801 0a4.596 4.596 0 0 0-4.676 4.454 4.515 4.515 0 0 0 4.528 4.528h.05c2.264.394 4.553-1.796 4.701-4.429.122-2.437-2.092-4.553-4.604-4.553Zm21.682.369c-2.855-.123-4.284-1.083-4.996-3.79a27.444 27.444 0 0 1-.811-5.292c-.198-3.298-.174-6.62-.395-9.918-.516-7.826-6.177-10.557-14.397-9.205v6.792c1.304 0 2.313 0 3.322.025 1.748.024 3.077.69 3.249 2.634.172 1.772.172 3.568.344 5.365.346 3.57.542 7.187 1.157 10.706.542 2.904 2.536 5.07 5.02 6.841-4.355 2.929-5.636 7.113-5.857 11.814-.122 3.223-.196 6.472-.368 9.721-.148 2.953-1.181 3.913-4.16 3.987-.835.024-1.648.098-2.583.148v6.964c1.748 0 3.347.1 4.946 0 4.971-.295 7.974-2.706 8.96-7.531.417-2.658.662-5.34.737-8.023.171-2.46.148-4.946.394-7.382.369-3.815 2.116-5.389 5.93-5.636a5.161 5.161 0 0 0 1.06-.245v-7.801c-.64-.074-1.084-.148-1.552-.173zM64 6.1c31.977 0 57.9 25.92 57.9 57.898 0 31.977-25.923 57.899-57.9 57.899-31.976 0-57.898-25.922-57.898-57.9C6.102 32.023 32.024 6.101 64 6.101m0-6.1C28.71 0 0 28.71 0 64c0 35.288 28.71 63.998 64 63.998 35.289 0 64-28.71 64-64S99.289.002 64 .002Z" />
+                        </svg>
+                        Web API</div>
+                </div>
+                <div class="col-md-5 " data-aos="flip-left">
+                    <div class="skill-box"><i class="fa-solid fa-database" style="color: rgb(41, 95, 204);"></i> SQL
+                        Server</div>
                 </div>
 
             </div>
@@ -111,9 +163,9 @@
             Projects
         </h2>
 
-        <div class="row mt-4 g-4">
+        <div class="row mt-4 g-4 justify-content-center">
 
-            <div class="col-md-4" data-aos="zoom-in">
+            <div class="col-md-6 col-xl-4" data-aos="zoom-in">
 
                 <div class="card project-card">
 
@@ -126,7 +178,7 @@
 
             </div>
 
-            <div class="col-md-4" data-aos="zoom-in">
+            <div class="col-md-6 col-xl-4" data-aos="zoom-in">
 
                 <div class="card project-card">
 
@@ -139,7 +191,7 @@
 
             </div>
 
-            <div class="col-md-4" data-aos="zoom-in">
+            <div class="col-md-7 col-xl-4" data-aos="zoom-in">
 
                 <div class="card project-card">
 
@@ -161,24 +213,46 @@
 
         <div class="container" data-aos="fade-up">
 
-            <h2>Contact Me</h2>
+            <h2 class="p-3">Contact Me</h2>
 
-            <p>Email: sivanesankumar220@gmail.com</p>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-md-5 col-xl-4">
+                    <a href="mailto:sivanesankumar220@gmail.com" class="text-decoration-none text-light"><i
+                            class="fa-solid fa-m" style="color: rgb(245, 158, 11);"></i> sivanesankumar220@gmail.com</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="tel:+918870900440" class="text-decoration-none text-light"> <i class="fa-solid fa-phone"
+                            style="color: rgb(245, 158, 11);"></i> +91 8870900440</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://wa.me/918870900440" target="_blank" class="text-decoration-none text-light">
+                        <i class="fa-brands fa-whatsapp" style="color: rgb(245, 158, 11);"></i> WhatsApp
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="www.linkedin.com/in/sivanesan-k-dot-net-developer" class="text-decoration-none text-light">
+                        <i class="fa-brands fa-square-linkedin" style="color: rgb(245, 158, 11);"></i>Sivanesan K</a>
+                </div>
 
-            <p>Phone: +91 8870900440</p>
+
+
+
+
+
+            </div>
 
         </div>
 
     </section>
 
     <footer class="text-center py-3">
-        © 2026 Sivanesan K
+        © 2026 Sivanesan
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
+    <script src="Script.js"></script>
     <script>
         AOS.init();
     </script>
