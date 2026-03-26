@@ -147,7 +147,7 @@ background:#d97706;
 footer{
 background:#e2e8f0;
 }
-@media (min-width:320px) and (max-width:355px){
+@media (min-width:290px) and (max-width:355px){
   .image{
     height: 250px;
   }
