@@ -147,8 +147,21 @@ background:#d97706;
 footer{
 background:#e2e8f0;
 }
+@media (min-width:320px) and (max-width:355px){
+  .image{
+    height: 250px;
+  }
+  .name-hero{
+    font-size: 50px !important;
+  }
+  img{
+   
+    padding: 12px;
+ 
+}
+}
 
-@media (max-width:576px){
+@media (min-width:356px) and  (max-width:576px){
   .image{
     height: 300px;
   }
