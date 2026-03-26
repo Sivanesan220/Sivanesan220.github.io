@@ -160,7 +160,7 @@ footer {
   background: #e2e8f0;
 }
 
-@media (min-width:290px) and (max-width:355px) {
+@media (max-width:355px) {
 
   /* .image{
     height: 250px;
