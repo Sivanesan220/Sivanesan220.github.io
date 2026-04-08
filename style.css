@@ -1,12 +1,13 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #F8FAFC;
+  padding-top: 58px;
 }
 
 /* Navbar */
 
 .navbar {
-  background: #220974;
+ 
   border-bottom: 3px solid #06B6D4;
 }
 
@@ -23,11 +24,11 @@ body {
   position: fixed;
 
   width: 100%;
-
+  top:0;
   z-index: 1000;
 
   /* Glassmorphism Core Properties */
-  background: rgba(64, 64, 229, 0.538);
+  background: rgba(65, 65, 233, 0.538);
   /* Transparent white */
   backdrop-filter: blur(10px);
   /* The frosted blur */
