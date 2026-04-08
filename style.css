@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #F8FAFC;
-  padding-top: 58px;
+ 
 }
 
 /* Navbar */
@@ -19,7 +19,9 @@ body {
 .nav-link:hover {
   color: #F59E0B !important;
 }
-
+.btn-style{
+  border: none;
+}
 .glass-nav {
   position: fixed;
 
@@ -189,7 +191,7 @@ footer {
 }
 
 .nav-icon {
-  background-color: #4F46E5 !important;
+   
   border-radius: 2px !important;
 }
 
@@ -207,5 +209,11 @@ footer {
 
   .name-hero {
     font-size: 40px !important;
+  }
+}
+@media (max-width:375px) {
+
+  .hero {
+    height: 950px !important;
   }
 }
